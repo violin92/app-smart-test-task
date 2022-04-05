@@ -1,0 +1,12 @@
+#GET http://localhost:8080/products
+GET http://localhost:8080/products/adcbf017-452e-4116-a075-0e8d393605e9
+Content-Type: application/json
+
+{
+  "title": "Golf",
+  "description": "Limo",
+  "price": "34000.00",
+  "customer": {
+    "id": "c0cf9e6d-894d-4493-8016-25501df0283a"
+  }
+}
